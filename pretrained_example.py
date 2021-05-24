@@ -15,6 +15,7 @@ import dnnlib
 import dnnlib.tflib as tflib
 import config
 
+# Función principal del ejemplo del pre-entrenamiento
 def main():
     # Initialize TensorFlow.
     tflib.init_tf()

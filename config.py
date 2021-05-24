@@ -10,9 +10,13 @@
 #----------------------------------------------------------------------------
 # Paths.
 
+# Path de resultado, donde se encontrara
 result_dir = 'results'
+# Path de dataset que se utilizara para el uso de la red
 data_dir = 'datasets'
+# Path para la dirección de la cache, su funcionalidad es como el nombre lo indica verificar la cache
 cache_dir = 'cache'
+# Path de lo que se ignora, esto para evitar subirlo a algún repositorio
 run_dir_ignore = ['results', 'datasets', 'cache']
 
 #----------------------------------------------------------------------------

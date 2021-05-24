@@ -16,7 +16,7 @@ from metrics import metric_base
 
 #----------------------------------------------------------------------------
 # Official training configs for StyleGAN, targeted mainly for FFHQ.
-
+# Declaramos las variables a utilizar de manera infinita
 if 1:
     desc          = 'sgan'                                                                 # Description string included in result subdir name.
     train         = EasyDict(run_func_name='training.training_loop.training_loop')         # Options for training loop.
@@ -80,7 +80,7 @@ if 1:
 
 #----------------------------------------------------------------------------
 # Official training configs for Progressive GAN, targeted mainly for CelebA-HQ.
-
+# Declaramos las variables a utilizar de manera infinita
 if 0:
     desc          = 'pgan'                                                         # Description string included in result subdir name.
     train         = EasyDict(run_func_name='training.training_loop.training_loop') # Options for training loop.
